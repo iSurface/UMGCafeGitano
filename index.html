@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CafeGitano: café de especialidad, productos artesanales y un espacio para disfrutar.">
+    <title>CafeGitano | Café de especialidad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="encabezado" id="inicio">
+        <a class="marca" href="#inicio" aria-label="Ir al inicio de CafeGitano">
+            <span class="marca-icono">☕</span>
+            <span>CafeGitano</span>
+        </a>
+
+        <nav class="navegacion" aria-label="Navegación principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#horarios">Horarios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-contenido">
+                <p class="etiqueta">Café de especialidad · Guatemala</p>
+                <h1>Un buen día comienza con <em>buen café.</em></h1>
+                <p class="hero-texto">Granos seleccionados, métodos artesanales y sabores que convierten cada taza en un momento especial.</p>
+                <div class="hero-acciones">
+                    <a class="boton boton-principal" href="#productos">Ver nuestro menú</a>
+                    <a class="boton boton-secundario" href="#contacto">Visítanos</a>
+                </div>
+                <div class="datos-rapidos">
+                    <span><strong>100%</strong> café guatemalteco</span>
+                    <span><strong>4.9</strong> valoración local</span>
+                </div>
+            </div>
+
+            <div class="hero-imagen" role="img" aria-label="Taza de café sobre una mesa de madera">
+                <div class="sello">Recién<br>tostado</div>
+            </div>
+        </section>
+
+        <section class="seccion productos" id="productos">
+            <div class="titulo-seccion">
+                <div>
+                    <p class="etiqueta">Preparado para ti</p>
+                    <h2>Nuestros favoritos</h2>
+                </div>
+                <p>Explora bebidas clásicas y creaciones de la casa elaboradas por nuestros baristas.</p>
+            </div>
+
+            <div class="categorias" aria-label="Categorías de productos">
+                <button class="categoria activa" type="button">Todos</button>
+                <button class="categoria" type="button">Café caliente</button>
+                <button class="categoria" type="button">Café frío</button>
+                <button class="categoria" type="button">Sin café</button>
+                <button class="categoria" type="button">Postres</button>
+            </div>
+
+            <div class="rejilla-productos">
+                <article class="tarjeta-producto">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=800&q=85" alt="Latte con arte en una taza">
+                    <div class="producto-info">
+                        <div><h3>Latte Gitano</h3><p>Espresso, leche cremosa y arte latte.</p></div>
+                        <span class="precio">Q24</span>
+                    </div>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85" alt="Café frío servido con hielo">
+                    <div class="producto-info">
+                        <div><h3>Cold Brew</h3><p>Extracción en frío durante 16 horas.</p></div>
+                        <span class="precio">Q28</span>
+                    </div>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=85" alt="Café filtrado junto a granos de café">
+                    <div class="producto-info">
+                        <div><h3>V60 de origen</h3><p>Notas dulces y frutales de temporada.</p></div>
+                        <span class="precio">Q30</span>
+                    </div>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=85" alt="Croissant artesanal recién horneado">
+                    <div class="producto-info">
+                        <div><h3>Croissant</h3><p>Hojaldre artesanal de mantequilla.</p></div>
+                        <span class="precio">Q18</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion informacion" id="horarios">
+            <div class="info-imagen" role="img" aria-label="Interior acogedor de una cafetería"></div>
+            <div class="info-contenido">
+                <p class="etiqueta">Tu mesa te espera</p>
+                <h2>Haz una pausa,<br>nosotros ponemos el café.</h2>
+                <p>Un rincón tranquilo para conversar, estudiar o simplemente disfrutar una taza hecha con dedicación.</p>
+                <div class="horario">
+                    <div><span>Lunes a viernes</span><strong>7:00 – 20:00</strong></div>
+                    <div><span>Sábado y domingo</span><strong>8:00 – 21:00</strong></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="footer-marca">
+            <a class="marca" href="#inicio"><span class="marca-icono">☕</span><span>CafeGitano</span></a>
+            <p>Café local, momentos auténticos.</p>
+        </div>
+        <div><h3>Encuéntranos</h3><p>4a Calle Oriente #12<br>Antigua Guatemala</p></div>
+        <div><h3>Contacto</h3><p>+502 5555-0101<br>hola@cafegitano.com</p></div>
+        <p class="copyright">© 2026 CafeGitano</p>
+    </footer>
+</body>
+</html>
